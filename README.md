@@ -1,84 +1,114 @@
-# 🚀 Projeto DevLife
+# Números Espelhados em C
 
-> Um projeto fictício criado para praticar programação, organização e desenvolvimento de software.
+<p align="center">
+  ✦ ─────────────── ✦ ─────────────── ✦
+</p>
 
-## 📌 Sobre o projeto
+<p align="center">
+  Um pequeno projeto desenvolvido em <strong>C</strong> para praticar lógica de programação e manipulação de números.
+</p>
 
-O **DevLife** é uma aplicação fictícia que tem como objetivo ajudar estudantes de programação a organizar suas tarefas, acompanhar seu progresso e manter uma rotina de estudos.
+<p align="center">
+  <img src="https://img.shields.io/badge/Linguagem-C-A8A4FF?style=for-the-badge&logo=c&logoColor=white" alt="Linguagem C">
+  <img src="https://img.shields.io/badge/Status-Concluído-B8A1E3?style=for-the-badge" alt="Status do projeto">
+  <img src="https://img.shields.io/badge/Objetivo-Aprendizado-D8B4FE?style=for-the-badge" alt="Objetivo educacional">
+</p>
 
-## ✨ Funcionalidades
+---
 
-- [x] Criar tarefas
-- [x] Organizar os estudos
-- [ ] Acompanhar o progresso semanal
-- [ ] Implementar um sistema de login
-- [ ] Adicionar modo escuro
+## ✧ Sobre o projeto
 
-## 🛠️ Tecnologias utilizadas
+O **Números Espelhados** é um programa desenvolvido na linguagem C que recebe dois números inteiros e exibe uma sequência numérica crescente, seguida de uma sequência decrescente.
 
-- **HTML5** — estrutura da aplicação
-- **CSS3** — estilização
-- **JavaScript** — funcionalidades
-- **Git e GitHub** — versionamento de código
+Durante a segunda parte, os números com dois algarismos têm suas dezenas e unidades invertidas.
+
+O projeto foi criado com o objetivo de praticar conceitos fundamentais da programação e desenvolver o raciocínio lógico.
+
+## ⟡ Funcionamento
+
+```text
+╭────────────────────────────╮
+│  01. Recebe dois números   │
+│  02. Exibe a ordem crescente│
+│  03. Percorre em ordem     │
+│      decrescente           │
+│  04. Inverte os algarismos │
+│      dos números de 2      │
+│      dígitos               │
+╰────────────────────────────╯
+```
+
+## 💻 Exemplo de execução
+
+**Entrada:**
+
+```text
+Digite um numero: 2
+Digite um numero: 5
+```
+
+**Saída:**
+
+```text
+23455432
+```
+
+> [!NOTE]
+> O exemplo considera números de um algarismo. A inversão implementada no código considera apenas a dezena e a unidade.
+
+## 🛠️ Tecnologias e conceitos
+
+| Tecnologia / conceito | Aplicação |
+|:---|:---|
+| `C` | Linguagem utilizada |
+| `printf()` | Exibição de informações |
+| `scanf()` | Entrada de dados |
+| `for` | Repetição e percursos numéricos |
+| `if / else` | Verificação de condições |
+| `/` e `%` | Separação dos algarismos |
 
 ## 📂 Estrutura do projeto
 
 ```text
-DevLife/
-├── index.html
-├── style.css
-├── script.js
-├── assets/
-│   └── logo.png
-└── README.md
+📁 numeros-espelhados/
+ ├── 📄 main.c
+ └── 📄 README.md
 ```
 
 ## 🚀 Como executar
 
-1. Clone este repositório:
+**1. Clone o repositório**
 
-   ```bash
-   git clone https://github.com/usuario/DevLife.git
-   ```
-
-2. Entre na pasta do projeto:
-
-   ```bash
-   cd DevLife
-   ```
-
-3. Abra o arquivo `index.html` no navegador.
-
-## 💻 Exemplo de código
-
-```javascript
-function saudacao(nome) {
-    return `Olá, ${nome}! Bem-vindo ao DevLife.`;
-}
-
-console.log(saudacao("Desenvolvedor"));
+```bash
+git clone https://github.com/SEU-USUARIO/numeros-espelhados.git
 ```
 
-**Resultado:**
+**2. Acesse a pasta**
 
-```text
-Olá, Desenvolvedor! Bem-vindo ao DevLife.
+```bash
+cd numeros-espelhados
 ```
 
-## 📊 Status do projeto
+**3. Compile o programa**
 
-![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+```bash
+gcc main.c -o numeros-espelhados
+```
 
-## 👩‍💻 Autora
+**4. Execute**
 
-Desenvolvido por **Seu Nome** 💜
+```bash
+./numeros-espelhados
+```
 
-- GitHub: [@usuario](https://github.com/usuario)
+No Windows, você também pode executar o arquivo `numeros-espelhados.exe` após a compilação.
 
-## 📄 Licença
+## 📚 Aprendizados
 
-Este projeto foi criado para fins educacionais e de aprendizado.
+- Organização de código em funções.
+- Entrada e saída de dados.
+- Estruturas condicionais e de repetição.
+- Operações aritméticas.
+- Desenvolvimento do raciocínio lógico.
 
 ---
-
-⭐ Se você gostou do projeto, deixe uma estrela no repositório!
